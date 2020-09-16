@@ -1,0 +1,21 @@
+.galleryButtons {
+    display: flex;
+    flex-direction: row;
+    transform: scale(.5);
+}
+
+.galleryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 50px;
+
+    & .galleryTitles{
+        display:block;
+        text-align:center;
+    }
+}

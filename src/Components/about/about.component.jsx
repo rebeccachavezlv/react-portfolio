@@ -12,7 +12,7 @@ const AboutComponent = () => (
             <div className='imageContainer'>
                 <img src={headshot} alt=''/>
             </div>
-            <div className='aboutContainer'>
+            <div className='bioContainer'>
                 <p>Hi! My name is Rebecca Chavez, and I'm an intermediate web developer with experience in HTML, CSS, JavaScript, React.js, and more!</p>
                 <p>Having spent almost a decade in advertising and media production, the transition into the role of a web developer has been seamless, and exciting. As a lifetime learner that is consistently aiming to become better, I'm looking forward to finding out how I can help you and your team on your next project!</p>
                 <div className='aboutButtons'>
