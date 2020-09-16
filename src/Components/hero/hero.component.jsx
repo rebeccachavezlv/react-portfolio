@@ -12,9 +12,9 @@ const HeroComponent = () => (
         </span><br></br>
         I'm a Web Developer.</h1>
         <div className='heroButtons'>
-            <a href='#about'><ButtonComponent title='About Me'/></a>
-            <ButtonComponent title='Portfolio'/>
-            <ButtonComponent title='Contact'/>
+            <a href='#about' style={{textDecoration: 'none'}}><ButtonComponent effect='colorButton' title='About Me'/></a>
+            <ButtonComponent effect='colorButton' title='Portfolio'/>
+            <ButtonComponent effect='colorButton' title='Contact'/>
         </div>
         <Social />
     </div>
