@@ -1,0 +1,25 @@
+.socialIcons {
+    display: flex;
+    margin: 10px;
+
+    & .singleIcon:hover {
+        transform: scale(1.1);
+        transition-duration: 200ms;
+    }
+}
+
+.singleIcon {
+    margin: 15px;
+    font-size: 2.5rem;
+    justify-items: center;
+
+    & a{
+        color: #272341;
+    }
+
+    & a:hover {
+        color: #5d5a71;
+        transform: scale(1.5);
+        transition-duration: 200ms;
+    }
+}
