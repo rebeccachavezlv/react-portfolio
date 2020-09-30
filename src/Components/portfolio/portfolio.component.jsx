@@ -12,48 +12,57 @@ class Portfolio extends React.Component {
             items: [
                 {
                     title: 'ISS Finder',
-                    subtitle: 'Subtitle 1',
+                    subtitle: 'JavaScript, Open Notify API, CSS, HTML',
                     type: 'code',
                     imageUrl: '',
-                    codeUrl: '',
-                    webUrl: '',
+                    codeUrl: 'https://github.com/rebeccachavezlv/ISSFinder',
+                    webUrl: 'https://rebeccachavezlv.github.io/ISSFinder/',
                     id: 1
                 },
                 {
-                    title: 'CSS Generator',
-                    subtitle: 'Subtitle 2',
+                    title: 'CSS Gradient Generator',
+                    subtitle: 'JavaScript, CSS, HTML',
                     type: 'code',
                     imageUrl: '',
-                    codeUrl: '',
-                    webUrl: '',
+                    codeUrl: 'https://github.com/rebeccachavezlv/cssbackgroundgenerator',
+                    webUrl: 'https://rebeccachavezlv.github.io/cssbackgroundgenerator/',
                     id: 2
                 },
                 {
                     title: 'RoboFriends',
-                    subtitle: 'Subtitle 3',
+                    subtitle: 'React.js, Robohash API, CSS',
                     type: 'code',
                     imageUrl: '',
-                    codeUrl: '',
-                    webUrl: '',
+                    codeUrl: 'https://github.com/rebeccachavezlv/robotfriends',
+                    webUrl: 'https://rebeccachavezlv.github.io/robotfriends/',
                     id: 3
                 },
                 {
                     title: 'Black Raven Films',
-                    subtitle: 'Subtitle 4',
+                    subtitle: 'Wordpress, CSS',
                     type: 'code',
                     imageUrl: '',
                     codeUrl: '',
-                    webUrl: '',
+                    webUrl: 'https://www.blackravenfilms.com',
                     id: 4
                 },
                 {
-                    title: 'Title 5',
-                    subtitle: 'Subtitle 5',
+                    title: 'Clothing Store',
+                    subtitle: 'React.js, Redux, Firebase, Stripe API, SCSS',
                     type: 'code',
                     imageUrl: '',
-                    codeUrl: '',
+                    codeUrl: 'https://github.com/rebeccachavezlv/clothing-store',
                     webUrl: '',
                     id: 5
+                },
+                {
+                    title: 'Quote Generator',
+                    subtitle: 'JavaScript, Forismatic API, CSS, HTML',
+                    type: 'code',
+                    imageUrl: '',
+                    codeUrl: 'https://github.com/rebeccachavezlv/quote-generator',
+                    webUrl: 'https://rebeccachavezlv.github.io/quote-generator/',
+                    id: 6
                 }
             ]
           };
@@ -61,7 +70,7 @@ class Portfolio extends React.Component {
 
     render() {
         return (
-            <div className='portfolioContainer'>
+            <div className='portfolioContainer' id='portfolio'>
                 <h1>PORTFOLIO</h1>
                 <div className='galleryContainer'>
                     {this.state.items.map(({id, ...otherSectionProps}) => (
