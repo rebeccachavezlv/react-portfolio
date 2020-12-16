@@ -1,0 +1,30 @@
+.contactForm{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+input {
+    height: 30px;
+
+}
+
+textarea {
+    resize:none;
+    height: 200px;
+}
+
+input, textarea {
+    width: 30vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+

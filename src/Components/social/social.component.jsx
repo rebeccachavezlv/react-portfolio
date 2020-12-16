@@ -10,9 +10,9 @@ const githubIcon = <FontAwesomeIcon icon={faGithub} />
 const Social = () => (
     <div className='fa-6x socialIcons'>
         <div className='singleIcon'>
-            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com'>{linkedinIcon}</a></div>
+            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/rebecca-chavez-6979461b2/'>{linkedinIcon}</a></div>
         <div className='singleIcon'>
-            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com'>{githubIcon}</a></div>
+            <a target='_blank' rel="noopener noreferrer" href='https://github.com/rebeccachavezlv'>{githubIcon}</a></div>
     </div>
 )
 

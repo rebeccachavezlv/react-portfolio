@@ -6,9 +6,10 @@
     align-items: center;
     text-align: center;
     
-    & h1{
+    & h1 {
         color: #272341;
         font-size: 3.5rem;
+        margin-bottom: 20px;
     }
 
     & .boldText {
@@ -23,11 +24,27 @@
         display: flex;
         flex-direction: row;
         text-decoration: none;
+        margin-bottom: 20px;
+
 
         & a {
             text-decoration: none;
             color: black;
         }
+    }
+
+    & .socialIcons {
+        margin-bottom: 20px;
+
+    }
+
+    & .arrow-down {
+        justify-self: flex-end;
+        color: #272341;
+        font-size: 2rem;
+        // padding-top: 200px;
+        cursor: pointer;
+
     }
 }
 

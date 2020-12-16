@@ -4,13 +4,11 @@
     color: #fff;
     height: auto;
     border-top: 0;
-    -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
-    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 15%;
+    padding-bottom: 8%;
     
     & p {
         font-weight: 400;

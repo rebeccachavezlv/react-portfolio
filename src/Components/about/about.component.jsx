@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonComponent from '../button/button.component'
+import SmoothLink from '../smooth-link/smooth-link.component'
 
 import './about.styles.scss'
 
@@ -16,8 +16,8 @@ const AboutComponent = () => (
                 <p>Hi! My name is Rebecca Chavez, and I'm an intermediate web developer with experience in HTML, CSS, JavaScript, React.js, and more!</p>
                 <p>Having spent almost a decade in advertising and media production, the transition into the role of a web developer has been seamless, and exciting. As a lifetime learner that is consistently aiming to become better, I'm looking forward to finding out how I can help you and your team on your next project!</p>
                 <div className='aboutButtons'>
-                    <ButtonComponent effect='white-button' title='Portfolio'/>
-                    <ButtonComponent effect='white-button' title='Contact'/>
+                    <SmoothLink to='portfolioContainer' button='true' label='Portfolio' effect='white-button'/>
+                    <SmoothLink to='contact' button='true' label='Contact' effect='white-button'/>
                 </div>
             </div>
         </div>

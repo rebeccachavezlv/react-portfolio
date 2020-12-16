@@ -4,6 +4,7 @@ import './portfolio.styles.scss'
 
 import GalleryItem from './gallery.component'
 
+
 class Portfolio extends React.Component {
     constructor(){
         super();
@@ -14,7 +15,7 @@ class Portfolio extends React.Component {
                     title: 'ISS Finder',
                     subtitle: 'Subtitle 1',
                     type: 'code',
-                    imageUrl: '',
+                    imageUrl: '/assets/telescope-logo.jpg',
                     codeUrl: '',
                     webUrl: '',
                     id: 1
@@ -23,7 +24,7 @@ class Portfolio extends React.Component {
                     title: 'CSS Generator',
                     subtitle: 'Subtitle 2',
                     type: 'code',
-                    imageUrl: '',
+                    imageUrl: '/assets/gradient-logo.jpg',
                     codeUrl: '',
                     webUrl: '',
                     id: 2
