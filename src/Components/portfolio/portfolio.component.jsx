@@ -13,47 +13,56 @@ class Portfolio extends React.Component {
             items: [
                 {
                     title: 'ISS Finder',
-                    subtitle: 'Subtitle 1',
+                    subtitle: 'Javascript, RESTful API',
                     type: 'code',
                     imageUrl: '/assets/telescope-logo.jpg',
-                    codeUrl: '',
-                    webUrl: '',
+                    codeUrl: 'https://github.com/rebeccachavezlv/ISSFinder',
+                    webUrl: 'https://rebeccachavezlv.github.io/ISSFinder/',
                     id: 1
                 },
                 {
-                    title: 'CSS Generator',
-                    subtitle: 'Subtitle 2',
+                    title: 'CSS Gradient Generator',
+                    subtitle: 'HTML, CSS, Javascript',
                     type: 'code',
                     imageUrl: '/assets/gradient-logo.jpg',
-                    codeUrl: '',
-                    webUrl: '',
+                    codeUrl: 'https://github.com/rebeccachavezlv/cssbackgroundgenerator',
+                    webUrl: 'https://rebeccachavezlv.github.io/cssbackgroundgenerator/',
                     id: 2
                 },
                 {
                     title: 'RoboFriends',
-                    subtitle: 'Subtitle 3',
+                    subtitle: 'React.js, RESTful API',
                     type: 'code',
-                    imageUrl: '',
-                    codeUrl: '',
-                    webUrl: '',
+                    imageUrl: '/assets/robofriends-logo.jpg',
+                    codeUrl: 'https://github.com/rebeccachavezlv/robofriends/tree/master',
+                    webUrl: 'https://rebeccachavezlv.github.io/robofriends/',
                     id: 3
                 },
+                // {
+                //     title: 'CRWN Clothing',
+                //     subtitle: 'React.js, Redux, Stripe API, Firebase',
+                //     type: 'code',
+                //     imageUrl: '',
+                //     codeUrl: '',
+                //     webUrl: '',
+                //     id: 6
+                // },
                 {
                     title: 'Black Raven Films',
-                    subtitle: 'Subtitle 4',
+                    subtitle: 'WordPress, CSS',
                     type: 'code',
-                    imageUrl: '',
-                    codeUrl: '',
-                    webUrl: '',
+                    imageUrl: '/assets/blackraven-collage.jpg',
+                    codeUrl: null,
+                    webUrl: 'https://www.blackravenfilms.com',
                     id: 4
                 },
                 {
-                    title: 'Title 5',
-                    subtitle: 'Subtitle 5',
+                    title: "Rick's Lawn and Landscaping",
+                    subtitle: 'WordPress, CSS',
                     type: 'code',
-                    imageUrl: '',
-                    codeUrl: '',
-                    webUrl: '',
+                    imageUrl: '/assets/rickslawn.jpg',
+                    codeUrl: null,
+                    webUrl: 'https://www.rickslawnandlandscaping-lv.com',
                     id: 5
                 }
             ]

@@ -8,5 +8,7 @@
 
 .galleryContainer {
     display: grid;
-    grid-template-columns: repeat(4, 24vw);
+    grid-template-columns: repeat(3, 24vw);
+    grid-column-start: auto;
+    
 }

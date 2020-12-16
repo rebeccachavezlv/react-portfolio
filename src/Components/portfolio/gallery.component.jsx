@@ -13,6 +13,8 @@ class GalleryItem extends React.Component{
     }
 
     render() {
+
+
         return(
             <div className='galleryItem' style={{ backgroundImage: `url(${this.props.imageUrl})`}}>
                 <div className='galleryTitles'>
@@ -20,8 +22,10 @@ class GalleryItem extends React.Component{
                     <h3>{this.props.subtitle}</h3>
                 </div>
                 <div className='galleryButtons'>
-                    <ButtonComponent title='Live'/>
-                    <ButtonComponent title='Code'/>
+                    <a href={this.props.webUrl} target='_blank' rel="noopener noreferrer"><ButtonComponent title='Live'/></a>
+                    {this.props.codeUrl !== null &&
+                        <a href={this.props.codeUrl} target='_blank' rel="noopener noreferrer"><ButtonComponent title='Code'/></a>
+                    }
                 </div>
             </div>
         )
